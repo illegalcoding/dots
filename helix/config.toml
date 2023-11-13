@@ -1,0 +1,81 @@
+#theme = "catppuccin_frappe"
+theme = "dracula"
+[editor]
+#line-number = "relative"
+scrolloff = 8
+shell = ["zsh", "-c"]
+cursorline = true
+bufferline = "multiple"
+color-modes = true
+idle-timeout = 0
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode"]
+center = [
+   "file-name",
+   "file-modification-indicator",
+]
+right = [
+"spinner",
+   "diagnostics",
+   "position",
+   "spacer",
+   "position-percentage",
+   "spacer",
+   "file-encoding",
+   "file-line-ending",
+   "file-type",
+]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-messages = true
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+newline = "none"
+
+[editor.indent-guides]
+render = true
+
+[keys.insert]
+up = "move_line_up"
+down = "move_line_down"
+left = "move_char_left"
+right = "move_char_right"
+# up = "no_op"
+# down = "no_op"
+# left = "no_op"
+# right = "no_op"
+# pageup = "no_op"
+# pagedown = "no_op"
+# home = "no_op"
+# end = "no_op"
+# S-A-down = "copy_selection_on_next_line"
+# S-A-up = "copy_selection_on_prev_line"
+
+# [keys.normal]
+# up = "no_op"
+# down = "no_op"
+# left = "no_op"
+# right = "no_op"
+# pageup = "no_op"
+# pagedown = "no_op"
+# home = "no_op"
+# end = "no_op"
+# X = "extend_line_above"
+# S-A-down = "copy_selection_on_next_line"
+# S-A-up = "copy_selection_on_prev_line"
+# tab = "indent"
+# S-tab = "unindent"
+
