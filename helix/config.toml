@@ -1,5 +1,5 @@
 #theme = "catppuccin_frappe"
-theme = "dracula"
+theme = "dracula_transparent"
 [editor]
 #line-number = "relative"
 scrolloff = 8
